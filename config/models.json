@@ -1,0 +1,23 @@
+[
+  {
+    "key": "anthropic-1",
+    "provider": "anthropic",
+    "model": "claude-sonnet-5",
+    "envKey": "ANTHROPIC_API_KEY",
+    "maxTokens": 4096
+  },
+  {
+    "key": "openai-1",
+    "provider": "openai",
+    "model": "gpt-5.1",
+    "envKey": "OPENAI_API_KEY",
+    "maxTokens": 4096
+  },
+  {
+    "key": "google-1",
+    "provider": "google",
+    "model": "gemini-3-pro",
+    "envKey": "GOOGLE_API_KEY",
+    "maxTokens": 4096
+  }
+]

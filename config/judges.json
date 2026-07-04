@@ -1,0 +1,16 @@
+[
+  {
+    "key": "judge-anthropic",
+    "provider": "anthropic",
+    "model": "claude-sonnet-5",
+    "envKey": "ANTHROPIC_API_KEY",
+    "maxTokens": 2048
+  },
+  {
+    "key": "judge-openai",
+    "provider": "openai",
+    "model": "gpt-5.1",
+    "envKey": "OPENAI_API_KEY",
+    "maxTokens": 2048
+  }
+]
