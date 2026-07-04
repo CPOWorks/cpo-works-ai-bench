@@ -1,0 +1,18 @@
+{
+  "name": "cpo-works-ai-bench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Repeatable blind + rubric benchmark of AI model releases (Claude, GPT, Gemini) on CPO tasks: PRD writing, roadmap tradeoff memo, exec update, stakeholder comms, prototype spec, agentic multi-step task, voice check.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "run-models": "node scripts/run-models.js",
+    "judge-models": "node scripts/judge-models.js",
+    "build-leaderboard": "node scripts/build-leaderboard.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

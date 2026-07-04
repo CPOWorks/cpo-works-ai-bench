@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "scale": { "min": 1, "max": 5 },
+  "dimensions": [
+    {
+      "id": "task_fit",
+      "label": "Task Fit & Completeness",
+      "description": "Does it fully address the brief? Are all requested elements present?"
+    },
+    {
+      "id": "strategic_judgment",
+      "label": "Strategic Judgment",
+      "description": "Is prioritization/tradeoff reasoning sound? Does it show real product/business judgment, not generic advice?"
+    },
+    {
+      "id": "clarity_structure",
+      "label": "Clarity & Structure",
+      "description": "Is it well organized, scannable, and free of padding or filler?"
+    },
+    {
+      "id": "actionability",
+      "label": "Actionability",
+      "description": "Are next steps, owners, and decision points concrete enough to act on?"
+    },
+    {
+      "id": "voice_fit",
+      "label": "Voice & Audience Fit",
+      "description": "Is the tone/register right for the stated audience (exec, eng, customer, etc.)?"
+    },
+    {
+      "id": "rigor_accuracy",
+      "label": "Rigor & Accuracy",
+      "description": "No hallucinated facts/numbers; internal consistency; sound assumptions clearly flagged as assumptions."
+    }
+  ],
+  "notesLabel": "Free-form notes (what worked, what didn't)"
+}

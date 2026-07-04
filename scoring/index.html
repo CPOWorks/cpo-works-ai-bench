@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CPO Works AI Bench — Blind Scoring</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>CPO Works AI Bench — Blind Scoring</h1>
+    <span id="run-label"></span>
+    <div class="spacer"></div>
+    <div class="scorer-name-field">
+      <label for="scorer-name">Your name/tag:</label>
+      <input type="text" id="scorer-name" placeholder="optional" />
+    </div>
+    <label class="file-btn" for="folder-input">Load run folder…</label>
+    <input
+      type="file"
+      id="folder-input"
+      webkitdirectory
+      directory
+      multiple
+      style="display: none"
+    />
+    <button id="download-btn" disabled>Download results (JSON)</button>
+  </header>
+
+  <main>
+    <div id="empty-state">
+      <p>Select a <code>runs/&lt;runId&gt;</code> folder (created by
+      <code>npm run run-models</code>) using "Load run folder…" above.</p>
+      <p>Outputs are shown anonymized as <code>model_A</code> /
+      <code>model_B</code> / … — the real model behind each label is never
+      loaded by this page.</p>
+    </div>
+    <nav id="task-list" class="hidden"></nav>
+    <section id="task-view" class="hidden"></section>
+  </main>
+
+  <footer id="status-bar"></footer>
+
+  <script src="scoring.js"></script>
+</body>
+</html>
